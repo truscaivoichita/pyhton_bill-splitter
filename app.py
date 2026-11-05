@@ -50,3 +50,10 @@ print(f'Total bill so far: {running_total}')
 # Finally, use print() to display the string Tip amount: followed by a space and the value of your tip variable.
 tip = running_total * 0.25
 print(f'Tip amount: {tip}')
+
+# Step 6
+# Now that you have calculated the tip, you need to add it to your running_total to find the final bill amount.
+
+# Use the += operator to add the value of tip to your running_total. Finally, use print() to display the string Total with tip: followed by a space and the value of running_total.
+running_total += tip
+print(f"Total with tip: {running_total}")
