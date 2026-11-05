@@ -37,3 +37,16 @@ drinks = 64.21
 # Note: You might notice that the output has more decimal digits than expected. As you learned in a previous lesson, this happens because numbers are stored in binary, and many decimal values cannot be represented exactly in this format, which leads to rounding errors.
 running_total += appetizers + main_courses + desserts + drinks
 print(f'Total bill so far: {running_total}')
+
+# Step 5
+# The service was excellent, so the group decides to leave a 25% tip. To calculate a percentage in Python, you can multiply the total by the decimal equivalent of the percentage.
+
+# For example, to find 10% of a value, you would multiply it by 0.10 using the * operator:
+
+# Example Code
+# tax = total * 0.10
+# Create a variable named tip and assign it the result of multiplying running_total by 0.25.
+
+# Finally, use print() to display the string Tip amount: followed by a space and the value of your tip variable.
+tip = running_total * 0.25
+print(f'Tip amount: {tip}')
