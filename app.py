@@ -5,4 +5,9 @@
 
 # Create a variable named running_total and assign it the value 0.
 running_total = 0
-print(running_total)
+
+# Step 2
+# Next, you need to account for the number of people sharing the bill. Store this value in a variable, as you did in the previous step.
+
+# Create a variable named num_of_friends and assign it the value of 4. This will be used later in the workshop to calculate the final split.
+num_of_friends = 4
